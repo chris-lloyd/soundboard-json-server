@@ -2,9 +2,6 @@
     "name": "my-json-server",
     "version": "1.0.0",
     "main": "index.js",
-    "engines": {
-        "node": "20.x"
-      },
     "scripts": {
       "start": "json-server --watch db.json --port 3000"
     },
