@@ -1,11 +1,11 @@
 {
-    "name": "my-json-server",
-    "version": "1.0.0",
-    "main": "index.js",
-    "scripts": {
-      "start": "json-server --watch db.json --port 3000"
-    },
-    "dependencies": {
-      "json-server": "^1.0.0-beta.3"
-    }
+  "name": "my-json-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "json-server --watch db.json --port 4000"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
   }
+}
