@@ -22,8 +22,6 @@ app.use(
 // Path to the JSON file
 const dataPath = path.join(__dirname, "db.json");
 
-console.log({ dataPath });
-
 // Helper function to read data from the JSON file
 const readData = () => {
   const data = fs.readFileSync(dataPath);
@@ -38,7 +36,6 @@ const writeData = (data) => {
 // Get all items
 app.get("/playlist", (req, res) => {
   const items = readData();
-  console.log({ items: JSON.stringify(items) });
 
   res.json(items);
 });
