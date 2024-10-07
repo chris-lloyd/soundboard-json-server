@@ -11,8 +11,7 @@ const PORT = process.env.PORT || 4000;
 app.use(bodyParser.json());
 
 // Allow CORS from a specific origin (replace with your target website)
-const allowedOrigin =
-  "https://soundboard-wyzc-1cc9rmljx-christophers-projects-1cbade26.vercel.app"; // Change to your target website
+const allowedOrigin = "https://soundboard-wyzc.vercel.app"; // Change to your target website
 app.use(
   cors({
     origin: allowedOrigin,
